@@ -38,9 +38,9 @@ void print_inorder(struct node *root) {
 */
 int height(struct node *root) {
 	if (root == NULL) {
-		return -1; // L'altezza di un albero vuoto è -1.
+		return -1; 
 	}
-	// Restituisce l'altezza del sottoalbero più alto + 1 (per il nodo corrente).
+	
 	int left_height = height(root->left);
 	int right_height = height(root->right);
 	return (left_height > right_height ? left_height : right_height) + 1;
