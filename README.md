@@ -15,8 +15,8 @@ You will need a C compiler, such as `gcc`, installed on your system.
 
 1.  **Clone the repository (remember to replace with your details):**
     ```sh
-    git clone https://github.com/your-username/your-repository-name.git
-    cd your-repository-name
+    git clone https://github.com/jacopodilauro/Simple-Binary-Tree-in-C
+    cd Simple-Binary-Tree-in-C
     ```
 
 2.  **Compile the source code:**
