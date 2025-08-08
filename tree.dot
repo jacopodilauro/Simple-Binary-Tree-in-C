@@ -1,0 +1,27 @@
+digraph G {
+  node [shape=circle, fontname="Helvetica", fontsize=12];
+  edge [fontname="Helvetica", fontsize=10];
+  A0x2a2892a0[label="100"]
+  A0x2a2892a0 -> A0x2a2892c0
+  A0x2a2892c0[label="50"]
+  A0x2a2892c0 -> A0x2a289360
+  A0x2a289360[label="20"]
+  A0x2a289360 -> A0x2a2893e0
+  A0x2a2893e0[label="12"]
+  A0x2a2892c0 -> A0x2a289340
+  A0x2a289340[label="80"]
+  A0x2a289340 -> A0x2a289380
+  A0x2a289380[label="60"]
+  A0x2a289380 -> A0x2a289400
+  A0x2a289400[label="58"]
+  A0x2a2892a0 -> A0x2a2892e0
+  A0x2a2892e0[label="200"]
+  A0x2a2892e0 -> A0x2a289300
+  A0x2a289300[label="150"]
+  A0x2a2892e0 -> A0x2a289320
+  A0x2a289320[label="330"]
+  A0x2a289320 -> A0x2a2893a0
+  A0x2a2893a0[label="333"]
+  A0x2a2893a0 -> A0x2a2893c0
+  A0x2a2893c0[label="500"]
+}
