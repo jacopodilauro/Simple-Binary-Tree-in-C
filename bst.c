@@ -109,10 +109,8 @@ void print_rec(FILE *file, struct node *node) {
 		return;
 	}
 
-	// Scrivi il nodo corrente.
 	fprintf(file, "  A%p[label=\"%d\"]\n", (void*)node, node->val);
 
-	// Scrivi gli archi e visita i sottoalberi.
 	if (node->left != NULL) {
 		fprintf(file, "  A%p -> A%p\n", (void*)node, (void*)node->left);
 		print_rec(file, node->left);
